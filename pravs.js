@@ -15,6 +15,7 @@ getfile("pravs.json",function(text){
    basicinfo(data.basics);
    eduinfo(data.education);
    skills(data.skills);
+   achieve(data.achievements);
 });
 //flex-parent
 var main=document.querySelector('.flex-parent');
