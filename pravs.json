@@ -5,4 +5,22 @@
     "photo":"44.jpg",
     "email":"pravallika@gmail.com"
   }
+,
+  "education":[{
+    "course":"B.tech(cse)",
+    "college":"Gudlavalleru Engineering College",
+    "data":["2015-2019","90%","jntu k"]
+  }
+,
+{
+"course":"inter(mpc)",
+"college":"Gayathri jr. college",
+"data":["2013-2015","96.3%"]
+},
+{
+  "course":"ssc",
+  "college":"z.p.h school",
+  "data":["2012-2013","95%"]
+}
+]
 }
