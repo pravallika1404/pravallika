@@ -40,5 +40,11 @@
   "name":"data bases",
   "info":["oracle","sql","pl/sql"]
 }
+],
+"achievements":[
+  {
+    "achieve":["1.I got first prize in national level Q-fiesta","2.I got 2nd prize in national level WEB-D",
+  "3.I helped in organizing a national level technical quiz"]
+}
 ]
 }
