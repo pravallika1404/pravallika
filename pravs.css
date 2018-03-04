@@ -5,7 +5,7 @@
   border: 1px solid #bbb;
 }
 .flex-parent>div{
-  background:fff;
+  background:#fff;
   padding:2%;
 
 }
@@ -155,4 +155,18 @@ a{
 #photo{
   height:100px;
   width:100px;
+}
+table{
+  border:2px solid cyan;
+  width:100px;
+  font-size:25px;
+}
+td{
+  padding:1%;
+}
+table tr:nth-child(odd){
+    background:#F0F8FF;
+  }
+table tr:nth-child(even){
+  background:#EE82EE;
 }
