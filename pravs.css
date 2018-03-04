@@ -1,0 +1,158 @@
+.flex-parent{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  border: 1px solid #bbb;
+}
+.flex-parent>div{
+  background:fff;
+  padding:2%;
+
+}
+.content-child{
+  background:cyan;
+  width:70%;
+  padding: 2%;
+  margin:1%;
+  border:1px solid #bbb;
+  box-shadow: 3px 3px 3px blue;
+}
+.profile-child{
+  background:cyan;
+  width:30%;
+  padding: 2%;
+  margin: 1%;
+  border:1px solid #bbb;
+  box-shadow:3px 3px 3px blue;
+
+}
+body{
+  background:mistyrose;
+}
+h2{
+  background: #ddd;
+  padding: 1%;
+  text-align:center;
+}
+.profile-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+  height:auto;
+}
+.profile-circle{
+  border-radius:50%;
+  border:1px solid yellow;
+}
+a{
+  text-decoration:none;
+}
+@media only screen and (min-width:320px) and (max-width:480px)P{
+  .flex-parent{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border: 1px solid #bbb;
+    flex-wrap: wrap;
+  }
+  .content-child{
+    background:cyan;
+    width:100%;
+    padding: 2%;
+    margin:1%;
+    border:1px solid #bbb;
+    box-shadow: 3px 3px 3px blue;
+  }
+  .profile-child{
+    background:cyan;
+    width:100%;
+    padding: 2%;
+    margin: 1%;
+    border:1px solid #bbb;
+    box-shadow:3px 3px 3px blue;
+
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .flex-parent{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border: 1px solid #bbb;
+    flex-wrap: wrap;
+  }
+  .content-child{
+    background:cyan;
+    width:100%;
+    padding: 2%;
+    margin:1%;
+    border:1px solid #bbb;
+    box-shadow: 3px 3px 3px blue;
+  }
+  .profile-child{
+    background:cyan;
+    width:100%;
+    padding: 2%;
+    margin: 1%;
+    border:1px solid #bbb;
+    box-shadow:3px 3px 3px blue;
+
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .flex-parent{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border: 1px solid #bbb;
+    flex-wrap: wrap;
+  }
+  .content-child{
+    background:cyan;
+    width:100%;
+    padding: 2%;
+    margin:1%;
+    border:1px solid #bbb;
+    box-shadow: 3px 3px 3px blue;
+  }
+  .profile-child{
+    background:cyan;
+    width:100%;
+    padding: 2%;
+    margin: 1%;
+    border:1px solid #bbb;
+    box-shadow:3px 3px 3px blue;
+
+  }
+}
+@media only screen and (min-width:1024px) and (max-width:1366px){
+  .flex-parent{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border: 1px solid #bbb;
+    flex-wrap: wrap;
+  }
+  .content-child{
+    background:cyan;
+    width:100%;
+    padding: 2%;
+    margin:1%;
+    border:1px solid #bbb;
+    box-shadow: 3px 3px 3px blue;
+  }
+  .profile-child{
+    background:cyan;
+    width:100%;
+    padding: 2%;
+    margin: 1%;
+    border:1px solid #bbb;
+    box-shadow:3px 3px 3px blue;
+
+  }
+}
+#photo{
+  height:100px;
+  width:100px;
+}
