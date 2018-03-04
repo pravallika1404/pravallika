@@ -13,7 +13,8 @@ getfile("pravs.json",function(text){
    let data=JSON.parse(text);
    console.log(data);
    basicinfo(data.basics);
-   eduinfo(data.education)
+   eduinfo(data.education);
+   skills(data.skills);
 });
 //flex-parent
 var main=document.querySelector('.flex-parent');
@@ -74,4 +75,15 @@ console.log(right);
 ul.appendChild(li);
   // }
 }
+}
+//skills
+function skills(pravs)
+{
+  var table=document.createElement("table");
+  var row="";
+  for(var k=0;k<pravs.length;k++){
+    row+="<tr><td><strong>"+pravs[k].name+"</strong></td><td>"+pravs[k].info+"</td></tr>";
+  }
+  table.innerHTML=row;
+  right.appendChild(table);
 }
